@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { TdFormComponent } from './td-form.component';
 
@@ -6,7 +6,7 @@ describe('TdFormComponent', () => {
   let component: TdFormComponent;
   let fixture: ComponentFixture<TdFormComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ TdFormComponent ]
     })
