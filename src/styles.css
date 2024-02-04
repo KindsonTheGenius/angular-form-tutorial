@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.formcontainer{
+  width: 50%;
+  background-color: floralwhite;
+  padding: 25px;
+  margin-top: 15px;
+  border: 1px;
+  border-style: solid;
+  margin-left: auto;
+  margin-right: auto;
+}
